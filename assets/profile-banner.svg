@@ -1,92 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ava Amiri — Embedded systems and electronics</title>
-  <desc id="desc">A modern purple digital banner with an animated microcontroller, glowing circuit traces, and a scanning pulse.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ava Amiri — Electronics, embedded systems, and digital design</title>
+  <desc id="desc">A modern dark navy technology banner with clean typography, subtle circuit traces, and a glowing microcontroller illustration.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#170b2e"/>
-      <stop offset=".52" stop-color="#32105b"/>
-      <stop offset="1" stop-color="#160c36"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B16"/>
+      <stop offset=".55" stop-color="#11152A"/>
+      <stop offset="1" stop-color="#17102C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#39205f"/>
-      <stop offset="1" stop-color="#17102f"/>
+      <stop offset="0" stop-color="#202748"/>
+      <stop offset="1" stop-color="#111629"/>
     </linearGradient>
-    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a855f7" stop-opacity=".12"/>
-      <stop offset=".55" stop-color="#d8b4fe"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity=".75"/>
-    </linearGradient>
-    <radialGradient id="halo">
-      <stop offset="0" stop-color="#a855f7" stop-opacity=".26"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="ambient">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#c4b5fd" stroke-opacity=".07" stroke-width="1"/>
-      <circle cx="0" cy="0" r="1" fill="#c4b5fd" fill-opacity=".18"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#A5B4FC" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="screen"><rect x="413" y="84" width="174" height="152" rx="14"/></clipPath>
   </defs>
-  <rect width="1000" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1000" height="320" rx="24" fill="url(#grid)"/>
-  <ellipse cx="500" cy="160" rx="330" ry="220" fill="url(#halo)"/>
 
-  <!-- Fine circuit-board paths -->
-  <g fill="none" stroke="url(#trace)" stroke-width="2" opacity=".8">
-    <path d="M0 72h180l28 28h135"/><path d="M0 105h130l32 32h178"/>
-    <path d="M0 246h176l34-34h130"/><path d="M0 278h125l30-30h186"/>
-    <path d="M1000 72H820l-28 28H657"/><path d="M1000 105H870l-32 32H690"/>
-    <path d="M1000 246H824l-34-34H656"/><path d="M1000 278H875l-30-30H689"/>
+  <rect width="1200" height="360" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <ellipse cx="900" cy="180" rx="330" ry="260" fill="url(#ambient)"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".55">
+    <path d="M0 70h210l42 42h130"/><path d="M0 102h154l38 38h190"/>
+    <path d="M0 290h220l38-38h124"/><path d="M1200 72h-104l-32 32h-94"/>
+    <path d="M1200 292h-118l-38-38h-74"/>
   </g>
-  <g fill="#d8b4fe" filter="url(#glow)">
-    <circle cx="180" cy="72" r="3"/><circle cx="130" cy="105" r="3"/>
-    <circle cx="176" cy="246" r="3"/><circle cx="125" cy="278" r="3"/>
-    <circle cx="820" cy="72" r="3"/><circle cx="870" cy="105" r="3"/>
-    <circle cx="824" cy="246" r="3"/><circle cx="875" cy="278" r="3"/>
+  <g fill="#C4B5FD" opacity=".9">
+    <circle cx="210" cy="70" r="3"/><circle cx="154" cy="102" r="3"/>
+    <circle cx="220" cy="290" r="3"/><circle cx="1096" cy="72" r="3"/>
+    <circle cx="1082" cy="292" r="3"/>
   </g>
 
-  <!-- Chip pins -->
-  <g stroke="#c4b5fd" stroke-width="5" stroke-linecap="round" opacity=".88">
-    <path d="M443 66v18M473 66v18M503 66v18M533 66v18M563 66v18"/>
-    <path d="M443 236v18M473 236v18M503 236v18M533 236v18M563 236v18"/>
-    <path d="M393 111h20M393 141h20M393 171h20M393 201h20"/>
-    <path d="M587 111h20M587 141h20M587 171h20M587 201h20"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="74" y="132" fill="#A78BFA" font-size="14" font-weight="700" letter-spacing="4">ELECTRICAL &amp; ELECTRONICS ENGINEER</text>
+    <text x="70" y="205" fill="#F8FAFC" font-size="62" font-weight="750" letter-spacing="-2">AVA AMIRI</text>
+    <rect x="74" y="228" width="84" height="4" rx="2" fill="url(#accent)"/>
+    <text x="74" y="271" fill="#C7D2FE" font-size="19" font-weight="500">HARDWARE  /  FIRMWARE  /  DIGITAL DESIGN</text>
+    <text x="74" y="310" fill="#94A3B8" font-size="14" letter-spacing="1">BUILD · TEST · ITERATE</text>
   </g>
-  <rect x="408" y="79" width="184" height="162" rx="19" fill="#a855f7" opacity=".18" filter="url(#glow)">
-    <animate attributeName="opacity" values=".12;.34;.12" dur="3.2s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="413" y="84" width="174" height="152" rx="14" fill="url(#chip)" stroke="#d8b4fe" stroke-opacity=".9" stroke-width="2"/>
-  <g clip-path="url(#screen)">
-    <path d="M413 125h174M413 195h174" stroke="#a855f7" stroke-opacity=".24"/>
-    <path d="M438 105h36m52 0h36M438 215h36m52 0h36" stroke="#22d3ee" stroke-opacity=".4"/>
-    <rect x="414" y="85" width="172" height="6" fill="#e9d5ff" opacity=".12">
-      <animate attributeName="y" values="88;230;88" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".04;.32;.04" dur="4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g text-anchor="middle" font-family="monospace">
-    <text x="500" y="137" fill="#c4b5fd" font-size="11" letter-spacing="3">MICROCONTROLLER</text>
-    <text x="500" y="177" fill="#f5f3ff" font-size="29" font-weight="700" letter-spacing="3">MCU</text>
-    <text x="500" y="204" fill="#67e8f9" font-size="11" letter-spacing="2">01 · 0A · FF · 1B</text>
-  </g>
-  <circle cx="567" cy="101" r="3" fill="#67e8f9" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;.25;1" dur="1.1s" repeatCount="indefinite"/>
-  </circle>
 
-  <!-- Title and data-like accents -->
-  <text x="52" y="145" fill="#f5f3ff" font-family="Arial, sans-serif" font-size="35" font-weight="700">AVA</text>
-  <text x="54" y="178" fill="#d8b4fe" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">ELECTRONICS  /  EMBEDDED  /  CODE</text>
-  <path d="M54 198h230" stroke="#a855f7" stroke-width="2"/>
-  <text x="54" y="224" fill="#c4b5fd" font-family="monospace" font-size="12">BUILD · TEST · ITERATE</text>
-  <g fill="#67e8f9" font-family="monospace" font-size="10" opacity=".72">
-    <text x="786" y="145">VCC 3.3V</text><text x="786" y="164">CLK 16MHz</text>
-    <text x="786" y="183">STATUS: ONLINE</text>
+  <!-- Microcontroller-inspired centerpiece -->
+  <g transform="translate(824 77)">
+    <circle cx="132" cy="105" r="130" fill="#8B5CF6" opacity=".12" filter="url(#soft-glow)"/>
+    <g stroke="#A5B4FC" stroke-width="5" stroke-linecap="round" opacity=".8">
+      <path d="M62 0v24M102 0v24M142 0v24M182 0v24"/>
+      <path d="M62 186v24M102 186v24M142 186v24M182 186v24"/>
+      <path d="M0 52h24M0 92h24M0 132h24M0 172h24"/>
+      <path d="M240 52h24M240 92h24M240 132h24M240 172h24"/>
+    </g>
+    <rect x="24" y="24" width="216" height="162" rx="22" fill="url(#chip)" stroke="#A78BFA" stroke-width="2"/>
+    <rect x="40" y="40" width="184" height="130" rx="14" fill="#0B1020" stroke="#334155"/>
+    <path d="M54 77h48l13 13h40m-101 28h29l12-12h70m-94 36h36l12-12h48" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+    <circle cx="176" cy="70" r="5" fill="#67E8F9" filter="url(#soft-glow)"/>
+    <text x="132" y="106" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="3">STM32</text>
+    <text x="132" y="151" text-anchor="middle" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="2">MCU · HDL · CODE</text>
   </g>
-  <circle cx="771" cy="180" r="3" fill="#4ade80" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
-  </circle>
-  <rect x="1" y="1" width="998" height="318" rx="23" fill="none" stroke="#c4b5fd" stroke-opacity=".24"/>
+
+  <rect x="1" y="1" width="1198" height="358" rx="25" fill="none" stroke="#A5B4FC" stroke-opacity=".2"/>
 </svg>

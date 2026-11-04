@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="Ava Amiri — a purple electronics-inspired animated banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="Ava Amiri — modern embedded systems and electronics banner" width="100%" />
 
   <br />
 
@@ -20,7 +20,7 @@
 
 ## `01` — The short circuit
 
-I’m an electrical and electronics engineer drawn to the point where **physical systems meet software**. I like understanding how things work, building small experiments, and improving them one test at a time—from a circuit on the bench to the code that brings it to life.
+I’m an electrical and electronics engineer drawn to the point where **physical systems meet software**. I like understanding how things work, building small experiments, and improving them one test at a time.
 
 > **Curiosity in. Prototypes out. Lessons learned every time.**
 
@@ -29,8 +29,9 @@ I’m an electrical and electronics engineer drawn to the point where **physical
 | Area | On my workbench |
 |:--|:--|
 | ⚡ **Electronics** | Circuit fundamentals, schematic capture, PCB design, and hardware testing |
-| 🤖 **Embedded systems** | Microcontrollers, sensors, peripherals, firmware, and control logic |
-| 💻 **Programming** | C and C++ fundamentals, debugging, and engineering problem-solving |
+| 🤖 **Embedded systems** | STM32 and Arduino microcontrollers, sensors, peripherals, firmware, and control logic |
+| 🧩 **Digital design** | VHDL, Verilog, and hardware description fundamentals |
+| 💻 **Programming** | C, C++, and Python; debugging and engineering problem-solving |
 | 🧪 **Making** | Prototyping, experimentation, iteration, and learning by doing |
 
 ## `03` — The toolkit
@@ -38,6 +39,10 @@ I’m an electrical and electronics engineer drawn to the point where **physical
 <p>
   <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
   <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="STM32" src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+  <img alt="VHDL" src="https://img.shields.io/badge/VHDL-7B2D8E?style=flat-square" />
+  <img alt="Verilog" src="https://img.shields.io/badge/Verilog-5B4B8A?style=flat-square" />
   <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
   <img alt="Altium Designer" src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -64,7 +69,7 @@ I’m growing my project portfolio through hands-on practice. Here are two place
 <div align="center">
 
   <h3>Signals from the workshop</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub activity stats for Ava Amiri" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub activity stats for AvaAmirii" />
 
   <br />
   <sub>Built with curiosity, a soldering iron, and a lot of iteration.</sub>
