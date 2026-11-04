@@ -1,91 +1,72 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="AvaAmirii — animated purple electronics banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="Ava Amiri — a purple electronics-inspired animated banner" width="100%" />
 
-  <h1>👋 Hi, I'm Ava Amiri</h1>
-  <p>
-    <b>⚡ Electrical & Electronics Engineer</b><br>
-    Designing, learning, and building with electronics, embedded systems, and code.
-  </p>
+  <br />
+
+  <h1>AVA AMIRI</h1>
+  <h3>Electrical & Electronics Engineer · Hardware-to-Code Explorer</h3>
+
+  <p><i>Turning sparks of curiosity into circuits, firmware, and things that work.</i></p>
 
   <p>
-    <a href="https://github.com/AvaAmirii">
-      <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-AvaAmirii-181717?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
+    <a href="https://github.com/AvaAmirii"><img src="https://img.shields.io/badge/GitHub-Follow%20my%20work-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Follow Ava Amiri on GitHub" /></a>
+    <img src="https://img.shields.io/badge/FOCUS-ELECTRONICS%20%2B%20EMBEDDED-171923?style=for-the-badge" alt="Focus: electronics and embedded systems" />
   </p>
 
 </div>
 
 ---
 
-## 👩‍💻 About
+## `01` — The short circuit
 
-I’m an electrical and electronics engineer focused on the intersection of hardware, embedded systems, and practical engineering problem-solving. I enjoy learning by building, testing ideas, and improving designs through hands-on experimentation.
+I’m an electrical and electronics engineer drawn to the point where **physical systems meet software**. I like understanding how things work, building small experiments, and improving them one test at a time—from a circuit on the bench to the code that brings it to life.
 
-## 🎯 Focus
+> **Curiosity in. Prototypes out. Lessons learned every time.**
 
-- 🔌 Electronics and circuit design
-- 🧩 Embedded systems and firmware fundamentals
-- 💻 C and C++ programming
-- 🧪 Prototyping, testing, and engineering experimentation
+## `02` — What I’m exploring
 
-## 🛠️ Skills & Tools
+| Area | On my workbench |
+|:--|:--|
+| ⚡ **Electronics** | Circuit fundamentals, schematic capture, PCB design, and hardware testing |
+| 🤖 **Embedded systems** | Microcontrollers, sensors, peripherals, firmware, and control logic |
+| 💻 **Programming** | C and C++ fundamentals, debugging, and engineering problem-solving |
+| 🧪 **Making** | Prototyping, experimentation, iteration, and learning by doing |
 
-### ⚡ Electronics & PCB Design
-
-<p>
-  <img alt="Altium Designer" src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white" />
-  <img alt="Circuit Design" src="https://img.shields.io/badge/Circuit%20Design-FF6F00?style=for-the-badge&logo= circuitverse&logoColor=white" />
-  <img alt="PCB Design" src="https://img.shields.io/badge/PCB%20Design-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-</p>
-
-- 📐 Schematic capture and circuit analysis
-- 🧭 PCB layout and design fundamentals
-- 🔍 Hardware troubleshooting and testing
-- 🔧 Prototyping and design iteration
-
-### 🤖 Embedded Systems
+## `03` — The toolkit
 
 <p>
-  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img alt="Microcontrollers" src="https://img.shields.io/badge/Microcontrollers-5C2D91?style=for-the-badge&logo=espressif&logoColor=white" />
-  <img alt="Firmware" src="https://img.shields.io/badge/Firmware-2C3E50?style=for-the-badge&logo=linux&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
+  <img alt="Altium Designer" src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 </p>
 
-- ⚙️ Microcontroller-oriented development
-- 🔄 Firmware and control logic
-- 🔌 Sensors, peripherals, and hardware interfaces
-- 🧰 Embedded software workflows
+*Schematic → prototype → firmware → test → repeat.*
 
-### 💻 Programming
+## `04` — Building blocks
 
-<p>
-  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+I’m growing my project portfolio through hands-on practice. Here are two places to start:
 
-- 🧠 C and C++ fundamentals
-- 🐞 Debugging and problem-solving
-- 📚 Version control and continuous learning
+- **[C — fundamentals & experiments](https://github.com/AvaAmirii/c)** · C-based practice and engineering exercises.
+- **[C++ — logic & problem-solving](https://github.com/AvaAmirii/cpp)** · C++ projects and technical learning.
 
-## 🚀 Projects
+[**Explore all repositories →**](https://github.com/AvaAmirii?tab=repositories)
 
-### Core repositories
+## `05` — Find me
 
-- [📘 C](https://github.com/AvaAmirii/c) — C-based work, experiments, and foundational engineering practice.
-- [📗 C++](https://github.com/AvaAmirii/cpp) — C++ projects focused on logic, technical development, and engineering problem-solving.
-
-## 📫 Connect
-
-- [🐙 GitHub](https://github.com/AvaAmirii)
-- [📂 Browse my repositories](https://github.com/AvaAmirii?tab=repositories)
+[GitHub · AvaAmirii](https://github.com/AvaAmirii) — the best place to follow what I’m learning and building.
 
 ---
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats for AvaAmirii" />
+  <h3>Signals from the workshop</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub activity stats for Ava Amiri" />
+
+  <br />
+  <sub>Built with curiosity, a soldering iron, and a lot of iteration.</sub>
 
 </div>
