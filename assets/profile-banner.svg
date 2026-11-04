@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Ava Amiri — Electronics, embedded systems, and digital design</title>
-  <desc id="desc">A modern dark navy technology banner with clean typography, subtle circuit traces, and a glowing microcontroller illustration.</desc>
+  <desc id="desc">A modern dark navy technology banner with clean typography, subtle circuit traces, and a softly animated glowing microcontroller illustration.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#080B16"/>
@@ -30,7 +30,9 @@
 
   <rect width="1200" height="360" rx="26" fill="url(#background)"/>
   <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
-  <ellipse cx="900" cy="180" rx="330" ry="260" fill="url(#ambient)"/>
+  <ellipse cx="900" cy="180" rx="330" ry="260" fill="url(#ambient)">
+    <animate attributeName="opacity" values=".65;1;.65" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
 
   <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".55">
     <path d="M0 70h210l42 42h130"/><path d="M0 102h154l38 38h190"/>
@@ -53,7 +55,9 @@
 
   <!-- Microcontroller-inspired centerpiece -->
   <g transform="translate(824 77)">
-    <circle cx="132" cy="105" r="130" fill="#8B5CF6" opacity=".12" filter="url(#soft-glow)"/>
+    <circle cx="132" cy="105" r="130" fill="#8B5CF6" opacity=".12" filter="url(#soft-glow)">
+      <animate attributeName="opacity" values=".08;.2;.08" dur="4s" repeatCount="indefinite"/>
+    </circle>
     <g stroke="#A5B4FC" stroke-width="5" stroke-linecap="round" opacity=".8">
       <path d="M62 0v24M102 0v24M142 0v24M182 0v24"/>
       <path d="M62 186v24M102 186v24M142 186v24M182 186v24"/>
@@ -63,7 +67,10 @@
     <rect x="24" y="24" width="216" height="162" rx="22" fill="url(#chip)" stroke="#A78BFA" stroke-width="2"/>
     <rect x="40" y="40" width="184" height="130" rx="14" fill="#0B1020" stroke="#334155"/>
     <path d="M54 77h48l13 13h40m-101 28h29l12-12h70m-94 36h36l12-12h48" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
-    <circle cx="176" cy="70" r="5" fill="#67E8F9" filter="url(#soft-glow)"/>
+    <circle cx="176" cy="70" r="5" fill="#67E8F9" filter="url(#soft-glow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
     <text x="132" y="106" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="3">STM32</text>
     <text x="132" y="151" text-anchor="middle" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="2">MCU · HDL · CODE</text>
   </g>
