@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
-  <title id="title">AvaAmirii — Embedded systems and electronics</title>
+  <title id="title">Ava Amiri — Embedded systems and electronics</title>
   <desc id="desc">A modern purple digital banner with an animated microcontroller, glowing circuit traces, and a scanning pulse.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -77,7 +77,7 @@
   </circle>
 
   <!-- Title and data-like accents -->
-  <text x="52" y="145" fill="#f5f3ff" font-family="Arial, sans-serif" font-size="35" font-weight="700">AVAAMIRII</text>
+  <text x="52" y="145" fill="#f5f3ff" font-family="Arial, sans-serif" font-size="35" font-weight="700">AVA AMIRI</text>
   <text x="54" y="178" fill="#d8b4fe" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">ELECTRONICS  /  EMBEDDED  /  CODE</text>
   <path d="M54 198h230" stroke="#a855f7" stroke-width="2"/>
   <text x="54" y="224" fill="#c4b5fd" font-family="monospace" font-size="12">BUILD · TEST · ITERATE</text>
