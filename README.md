@@ -1,5 +1,7 @@
 <div align="center">
 
+  <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="AvaAmirii — animated purple electronics banner" width="100%" />
+
   <h1><b>AvaAmirii</b></h1>
   <p>
     <b>Electrical & Electronics Engineer</b><br>
@@ -18,7 +20,7 @@
 
 ## About
 
-I’m an electrical and electronics engineer focused on the intersection of hardware, embedded systems, and practical engineering problem-solving. I enjoy learning by building, testing ideas, and improving my understanding of how electronics and software work together in real systems.
+I’m an electrical and electronics engineer focused on the intersection of hardware, embedded systems, and practical engineering problem-solving. I enjoy learning by building, testing ideas, and improving through hands-on experimentation.
 
 ## Focus
 
