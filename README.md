@@ -63,14 +63,17 @@ I’m growing my project portfolio through hands-on practice. Here are two place
 ## `05` — Me & my sister
 
 <div align="center">
-  <a href="https://github.com/HASTIAMIRI5">
-    <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/me-and-sister.svg" alt="Ava and her sister coding together" width="100%" />
+  <h3>Better together ✨</h3>
+  <p><i>Two sisters, one shared love of learning, making, and figuring things out.</i></p>
+  <a href="https://github.com/HASTIAMIRI5" title="Visit my sister's GitHub profile">
+    <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/me-and-sister.svg" alt="Ava and her sister learning and building together" width="100%" />
   </a>
+  <p>
+    <a href="https://github.com/HASTIAMIRI5"><strong>Meet my sister on GitHub →</strong></a>
+    <br />
+    <sub>Cheering each other on, sharing ideas, and growing one project at a time.</sub>
+  </p>
 </div>
-
-<p align="center">
-  <strong>Learning, building, and growing together.</strong>
-</p>
 
 ## `06` — Find me
 
@@ -89,4 +92,3 @@ I’m growing my project portfolio through hands-on practice. Here are two place
   <sub>Built with curiosity, a soldering iron, and a lot of iteration.</sub>
 
 </div>
-
