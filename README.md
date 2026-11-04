@@ -60,18 +60,33 @@ I’m growing my project portfolio through hands-on practice. Here are two place
 
 [**Explore all repositories →**](https://github.com/AvaAmirii?tab=repositories)
 
-## `05` — Find me
+## `05` — Me & my sister
+
+<div align="center">
+  <a href="https://github.com/HASTIAMIRI5">
+    <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/me-and-sister.svg" alt="Ava and her sister coding together" width="100%" />
+  </a>
+</div>
+
+<p align="center">
+  <strong>Learning, building, and growing together.</strong>
+</p>
+
+## `06` — Find me
 
 [GitHub · AvaAmirii](https://github.com/AvaAmirii) — the best place to follow what I’m learning and building.
+
+[GitHub · HASTIAMIRI5](https://github.com/HASTIAMIRI5) — my sister’s GitHub, where we share our projects and ideas.
 
 ---
 
 <div align="center">
 
   <h3>Signals from the workshop</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub activity stats for AvaAmirii" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AvaAmirii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub activity statistics for AvaAmirii" width="100%" />
 
   <br />
   <sub>Built with curiosity, a soldering iron, and a lot of iteration.</sub>
 
 </div>
+
