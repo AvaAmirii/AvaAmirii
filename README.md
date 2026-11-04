@@ -2,7 +2,7 @@
 
   <img src="https://raw.githubusercontent.com/AvaAmirii/AvaAmirii/main/assets/profile-banner.svg" alt="AvaAmirii — animated purple electronics banner" width="100%" />
 
-  <h1><b>AvaAmirii</b></h1>
+  <h1><b>Ava Amirii</b></h1>
   <p>
     <b>Electrical & Electronics Engineer</b><br>
     Designing, learning, and building with electronics, embedded systems, and code.
